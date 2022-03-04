@@ -33,7 +33,7 @@ FLAGS = flags.FLAGS
 ## Required parameters
 
 flags.DEFINE_string(
-    "data_dir", "tfds://imdb_reviews/plain_text",
+    "data_dir", "gs://bigbird-training",
     "The input data dir. Should contain the TFRecord files. "
     "Can be TF Dataset with prefix tfds://")
 
